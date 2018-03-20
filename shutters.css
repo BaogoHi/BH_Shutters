@@ -1,0 +1,23 @@
+.bh-shutters {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  width: 160px;
+  overflow: hidden;
+  transition: 0.9s;
+}
+.bh-shutters:hover {
+  width: 360px;
+}
+.bh-shutters-img {
+  width: 360px;
+  height: 260px;
+}
+
+.bh-shutters-title {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.171);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
